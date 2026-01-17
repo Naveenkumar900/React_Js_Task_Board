@@ -2,14 +2,14 @@ import { useState } from 'react'
  
 import viteLogo from '/vite.svg'
  
-import Dashbaord from './pages/Dashboard'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       <Dashbaord/>
+       <Dashboard/>
     </>
   )
 }
